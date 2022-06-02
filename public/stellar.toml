@@ -1,0 +1,27 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+SIGNING_KEY="GAGD5CO5WFEVDHPRBXI5P3UVPYNVYJTJNIP6ELW62JKCWSO2WIGBXD7U"
+HORIZON_URL="https://horizon-testnet.stellar.org"
+ACCOUNTS=[
+"GAGD5CO5WFEVDHPRBXI5P3UVPYNVYJTJNIP6ELW62JKCWSO2WIGBXD7U",
+"GBVZ3T3SKH65GEZBXWP5EXGRXZ36UXOS6IASZNLVZKBTS5DQON3IWCYR"
+]
+VERSION="2.0.0"
+TRANSFER_SERVER = "https://stellarlht.stellar.org/sep6"
+TRANSFER_SERVER_SEP0024 = "https://stellarlht.stellar.org/sep24"
+WEB_AUTH_ENDPOINT = "https://stellarlht.stellar.org/auth"
+KYC_SERVER = "https://stellarlht.stellar.org/kyc"
+DIRECT_PAYMENT_SERVER = "https://stellarlht.stellar.org/sep31"
+QUOTE_SERVER = "https://stellarlht.stellar.org/sep38"
+
+[[CURRENCIES]]
+code = "StellarLHT"
+issuer = "GAGD5CO5WFEVDHPRBXI5P3UVPYNVYJTJNIP6ELW62JKCWSO2WIGBXD7U"
+status = "test"
+is_asset_anchored = false
+desc = "Stellar Reference Token (StellarLHT) is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
+
+[DOCUMENTATION]
+ORG_NAME = "Stellar Development Foundation"
+ORG_URL = "https://stellar.org"
+ORG_DESCRIPTION = "The Stellar Development Foundation (SDF) is a non-profit organization whose mission is to create equitable access to the global financial system."
+ORG_GITHUB = "stellar"
