@@ -6,12 +6,12 @@ ACCOUNTS=[
 "GBVZ3T3SKH65GEZBXWP5EXGRXZ36UXOS6IASZNLVZKBTS5DQON3IWCYR"
 ]
 VERSION="2.0.0"
-TRANSFER_SERVER = "https://stellarlht.stellar.org/sep6"
-TRANSFER_SERVER_SEP0024 = "https://stellarlht.stellar.org/sep24"
-WEB_AUTH_ENDPOINT = "https://stellarlht.stellar.org/auth"
-KYC_SERVER = "https://stellarlht.stellar.org/kyc"
-DIRECT_PAYMENT_SERVER = "https://stellarlht.stellar.org/sep31"
-QUOTE_SERVER = "https://stellarlht.stellar.org/sep38"
+TRANSFER_SERVER = "http://stellar-toml-serve.vercel.app/sep6"
+TRANSFER_SERVER_SEP0024 = "http://stellar-toml-serve.vercel.app/sep24"
+WEB_AUTH_ENDPOINT = "http://stellar-toml-serve.vercel.app/auth"
+KYC_SERVER = "http://stellar-toml-serve.vercel.app/kyc"
+DIRECT_PAYMENT_SERVER = "http://stellar-toml-serve.vercel.app/sep31"
+QUOTE_SERVER = "http://stellar-toml-serve.vercel.app/sep38"
 
 [[CURRENCIES]]
 code = "StellarLHT"
