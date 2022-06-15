@@ -12,6 +12,7 @@ WEB_AUTH_ENDPOINT = "http://stellar-toml-serve.vercel.app/auth"
 KYC_SERVER = "http://stellar-toml-serve.vercel.app/kyc"
 DIRECT_PAYMENT_SERVER = "http://stellar-toml-serve.vercel.app/sep31"
 QUOTE_SERVER = "http://stellar-toml-serve.vercel.app/sep38"
+FEDERATION_SERVER="https://stellarid.io/federation/"
 
 [[CURRENCIES]]
 code = "StellarLHT"
